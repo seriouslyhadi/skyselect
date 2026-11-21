@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "skyselect",
+  "version": "${version}",
+  "name": "Sky Select",
+  "description": "Pick animated skies (aurora, meteor showers, nebula) from an in-game GUI. Powered by Skyboxify.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.skyselect.SkySelectMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "skyboxify": "*"
+  }
+}
